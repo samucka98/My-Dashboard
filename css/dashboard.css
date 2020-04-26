@@ -1,0 +1,111 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d5d4d6;
+}
+
+.painel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 85%;
+  border-radius: 35px 25px 25px 35px;
+  box-shadow: 2px 2px 35px 3px #9d9d9d;
+
+  overflow: hidden;
+}
+
+.painel:hover {
+  box-shadow: 2px 2px 35px 3px #5e5e5e;
+  transition: 1s;
+}
+
+.control {
+  background:linear-gradient(0deg, #7474bf 0%,#348ac7 100% );
+  border-radius: 35px 0px 0px 35px;
+  display: inline-block;
+  width: 12%;
+  height: 100%;
+
+  box-sizing: border-box;
+  position: relative;
+}
+
+.view {
+  background-color: #1e1e22;
+  border-radius: 25px;
+  width: 90%;
+  height: 100%;
+
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  /* left: 10%; */
+  left: 75%;
+}
+
+.commands {
+  background-color: #1e1e22;
+  border-radius: 25px;
+  width: 25%;
+  height: 100%;
+
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 75%;
+}
+
+.sections {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 45%;
+  margin-top: 90%;
+}
+
+.sections li {
+  margin: 35px 0px;
+}
+
+.sections li button {
+  color: #f6f6f6;
+  font-size: 25px;
+  border: none;
+  background: none;
+}
+
+.sections li button:hover {
+  color: #1e1e22;
+}
+
+.logo {
+  margin-top: 20%;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+.logo img {
+  width: 65px;
+}
+
+.view button {
+  position: relative;
+  left: 45px;
+  top: 45px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #4a494b;
+  color: #f6f6f6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 7px 15px;
+}
